@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBEA5D0E1F16A381009CDD3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA5D0D1F16A381009CDD3F /* main.m */; };
+		EBEA5D111F16A381009CDD3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA5D101F16A381009CDD3F /* AppDelegate.m */; };
+		EBEA5D141F16A381009CDD3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA5D131F16A381009CDD3F /* ViewController.m */; };
+		EBEA5D171F16A381009CDD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEA5D151F16A381009CDD3F /* Main.storyboard */; };
+		EBEA5D191F16A381009CDD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEA5D181F16A381009CDD3F /* Assets.xcassets */; };
+		EBEA5D1C1F16A381009CDD3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEA5D1A1F16A381009CDD3F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBEA5D091F16A381009CDD3F /* YoutubeCloneObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeCloneObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEA5D0D1F16A381009CDD3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBEA5D0F1F16A381009CDD3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBEA5D101F16A381009CDD3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBEA5D121F16A381009CDD3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBEA5D131F16A381009CDD3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBEA5D161F16A381009CDD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBEA5D181F16A381009CDD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBEA5D1B1F16A381009CDD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBEA5D1D1F16A381009CDD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEA5D061F16A381009CDD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBEA5D001F16A381009CDD3F = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D0B1F16A381009CDD3F /* YoutubeCloneObjC */,
+				EBEA5D0A1F16A381009CDD3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEA5D0A1F16A381009CDD3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D091F16A381009CDD3F /* YoutubeCloneObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEA5D0B1F16A381009CDD3F /* YoutubeCloneObjC */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D0F1F16A381009CDD3F /* AppDelegate.h */,
+				EBEA5D101F16A381009CDD3F /* AppDelegate.m */,
+				EBEA5D121F16A381009CDD3F /* ViewController.h */,
+				EBEA5D131F16A381009CDD3F /* ViewController.m */,
+				EBEA5D151F16A381009CDD3F /* Main.storyboard */,
+				EBEA5D181F16A381009CDD3F /* Assets.xcassets */,
+				EBEA5D1A1F16A381009CDD3F /* LaunchScreen.storyboard */,
+				EBEA5D1D1F16A381009CDD3F /* Info.plist */,
+				EBEA5D0C1F16A381009CDD3F /* Supporting Files */,
+			);
+			path = YoutubeCloneObjC;
+			sourceTree = "<group>";
+		};
+		EBEA5D0C1F16A381009CDD3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D0D1F16A381009CDD3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEA5D081F16A381009CDD3F /* YoutubeCloneObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEA5D201F16A381009CDD3F /* Build configuration list for PBXNativeTarget "YoutubeCloneObjC" */;
+			buildPhases = (
+				EBEA5D051F16A381009CDD3F /* Sources */,
+				EBEA5D061F16A381009CDD3F /* Frameworks */,
+				EBEA5D071F16A381009CDD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeCloneObjC;
+			productName = YoutubeCloneObjC;
+			productReference = EBEA5D091F16A381009CDD3F /* YoutubeCloneObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEA5D011F16A381009CDD3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "the Luckiest";
+				TargetAttributes = {
+					EBEA5D081F16A381009CDD3F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z59CRYWHG5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EBEA5D041F16A381009CDD3F /* Build configuration list for PBXProject "YoutubeCloneObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBEA5D001F16A381009CDD3F;
+			productRefGroup = EBEA5D0A1F16A381009CDD3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEA5D081F16A381009CDD3F /* YoutubeCloneObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEA5D071F16A381009CDD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA5D1C1F16A381009CDD3F /* LaunchScreen.storyboard in Resources */,
+				EBEA5D191F16A381009CDD3F /* Assets.xcassets in Resources */,
+				EBEA5D171F16A381009CDD3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEA5D051F16A381009CDD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA5D141F16A381009CDD3F /* ViewController.m in Sources */,
+				EBEA5D111F16A381009CDD3F /* AppDelegate.m in Sources */,
+				EBEA5D0E1F16A381009CDD3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBEA5D151F16A381009CDD3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEA5D161F16A381009CDD3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBEA5D1A1F16A381009CDD3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEA5D1B1F16A381009CDD3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBEA5D1E1F16A381009CDD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBEA5D1F1F16A381009CDD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEA5D211F16A381009CDD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z59CRYWHG5;
+				INFOPLIST_FILE = YoutubeCloneObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterbugs.YoutubeCloneObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBEA5D221F16A381009CDD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z59CRYWHG5;
+				INFOPLIST_FILE = YoutubeCloneObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterbugs.YoutubeCloneObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEA5D041F16A381009CDD3F /* Build configuration list for PBXProject "YoutubeCloneObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEA5D1E1F16A381009CDD3F /* Debug */,
+				EBEA5D1F1F16A381009CDD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEA5D201F16A381009CDD3F /* Build configuration list for PBXNativeTarget "YoutubeCloneObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEA5D211F16A381009CDD3F /* Debug */,
+				EBEA5D221F16A381009CDD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBEA5D011F16A381009CDD3F /* Project object */;
+}
