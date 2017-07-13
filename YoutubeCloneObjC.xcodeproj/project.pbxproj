@@ -13,6 +13,10 @@
 		EBEA5D171F16A381009CDD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEA5D151F16A381009CDD3F /* Main.storyboard */; };
 		EBEA5D191F16A381009CDD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEA5D181F16A381009CDD3F /* Assets.xcassets */; };
 		EBEA5D1C1F16A381009CDD3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEA5D1A1F16A381009CDD3F /* LaunchScreen.storyboard */; };
+		EBEA5D261F16A43D009CDD3F /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA5D251F16A43D009CDD3F /* HTTPService.m */; };
+		EBEA5D2A1F16C626009CDD3F /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA5D291F16C626009CDD3F /* VideoCell.m */; };
+		EBEA5D2E1F16C8FB009CDD3F /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA5D2D1F16C8FB009CDD3F /* Video.m */; };
+		EBEA5D321F17691B009CDD3F /* VideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA5D311F17691B009CDD3F /* VideoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		EBEA5D181F16A381009CDD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBEA5D1B1F16A381009CDD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBEA5D1D1F16A381009CDD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEA5D241F16A43D009CDD3F /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		EBEA5D251F16A43D009CDD3F /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		EBEA5D281F16C626009CDD3F /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		EBEA5D291F16C626009CDD3F /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		EBEA5D2C1F16C8FB009CDD3F /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		EBEA5D2D1F16C8FB009CDD3F /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		EBEA5D301F17691B009CDD3F /* VideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoVC.h; sourceTree = "<group>"; };
+		EBEA5D311F17691B009CDD3F /* VideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,10 @@
 		EBEA5D0B1F16A381009CDD3F /* YoutubeCloneObjC */ = {
 			isa = PBXGroup;
 			children = (
+				EBEA5D2F1F176904009CDD3F /* Controller */,
+				EBEA5D2B1F16C8E6009CDD3F /* Model */,
+				EBEA5D271F16C60B009CDD3F /* View */,
+				EBEA5D231F16A418009CDD3F /* Servcies */,
 				EBEA5D0F1F16A381009CDD3F /* AppDelegate.h */,
 				EBEA5D101F16A381009CDD3F /* AppDelegate.m */,
 				EBEA5D121F16A381009CDD3F /* ViewController.h */,
@@ -77,6 +93,42 @@
 				EBEA5D0D1F16A381009CDD3F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBEA5D231F16A418009CDD3F /* Servcies */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D241F16A43D009CDD3F /* HTTPService.h */,
+				EBEA5D251F16A43D009CDD3F /* HTTPService.m */,
+			);
+			name = Servcies;
+			sourceTree = "<group>";
+		};
+		EBEA5D271F16C60B009CDD3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D281F16C626009CDD3F /* VideoCell.h */,
+				EBEA5D291F16C626009CDD3F /* VideoCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EBEA5D2B1F16C8E6009CDD3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D2C1F16C8FB009CDD3F /* Video.h */,
+				EBEA5D2D1F16C8FB009CDD3F /* Video.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EBEA5D2F1F176904009CDD3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5D301F17691B009CDD3F /* VideoVC.h */,
+				EBEA5D311F17691B009CDD3F /* VideoVC.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBEA5D141F16A381009CDD3F /* ViewController.m in Sources */,
+				EBEA5D2A1F16C626009CDD3F /* VideoCell.m in Sources */,
+				EBEA5D261F16A43D009CDD3F /* HTTPService.m in Sources */,
+				EBEA5D2E1F16C8FB009CDD3F /* Video.m in Sources */,
+				EBEA5D321F17691B009CDD3F /* VideoVC.m in Sources */,
 				EBEA5D111F16A381009CDD3F /* AppDelegate.m in Sources */,
 				EBEA5D0E1F16A381009CDD3F /* main.m in Sources */,
 			);
@@ -276,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z59CRYWHG5;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = YoutubeCloneObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masterbugs.YoutubeCloneObjC;
@@ -288,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z59CRYWHG5;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = YoutubeCloneObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masterbugs.YoutubeCloneObjC;
@@ -314,6 +372,7 @@
 				EBEA5D221F16A381009CDD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
